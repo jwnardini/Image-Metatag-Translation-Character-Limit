@@ -1,0 +1,12 @@
+--- a/config/schema/metatag.metatag_tag.schema.yml  2021-06-15 11:07:07.000000000 +0100
++++ b/config/schema/metatag.metatag_tag.schema.yml  2021-06-15 11:02:17.000000000 +0100
+@@ -1,24 +1,24 @@
+ metatag.metatag_tag.generator:
+  type: label
+  label: 'Generator'
+metatag.metatag_tag.image_src:
+-  type: label
++  type: text
+  label: 'Image SRC'
+metatag.metatag_tag.keywords:
+  type: text
